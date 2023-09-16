@@ -20,6 +20,10 @@ h1 {
     padding: 50px;
 }
 
+h2 {
+   color: rgba(51, 112, 112, 0.623); 
+}
+
 main {
     padding: 70px 0;
 }
@@ -67,9 +71,8 @@ input {
     background-color: rgba(255, 255, 255, 0.445);
     border: 0;
     height: 30px;
-    width: auto;
-   
-
+    width: 100%;
+    text-align: center;
 }
 
 button {
@@ -80,10 +83,21 @@ button {
     border-radius: 15%;
 }
 
+button:hover {
+    background-color: rgba(203, 240, 240, 0.842);
+    height: 40px;
+    width: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    border-radius: 15%;
+    
+}
+
+
 section {
     margin: 30px;
     padding: 6%;
-    border-radius: 4%;
+    border: 10px solid rgba(51, 92, 153, 0.384);
+    border-radius: 4%;  
 }
 
 .text-center {
@@ -100,5 +114,6 @@ section {
 }
 
 #trees {
+    border: 8px solid rgba(8, 110, 158, 0.651);
     border-radius: 50%;
 }
