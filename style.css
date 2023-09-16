@@ -28,6 +28,15 @@ main {
     padding: 70px 0;
 }
 
+a {
+    color: rgb(48, 17, 221);
+}
+
+a:hover {
+    color: rgb(180, 20, 153);
+    font-weight: bold;
+}
+
 label {
     display: inline;
     padding: 0 8px;
@@ -52,6 +61,7 @@ header {
 
 li {
     display: inline;
+    margin: 5px;
 
 }
 
