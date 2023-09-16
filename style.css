@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color:pink;
+    color: rgb(51, 51, 51);
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+h1 {
+    padding: 50px;
+}
+
+main {
+    padding: 70px 0;
+}
+
+label {
+    display: inline;
+    padding: 0 8px;
+   
+}
+
+form {
+    margin: 20px auto;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid rgba(54, 54, 54, 0.438);
+    border-radius: 5%;
+}
+ 
+header {
+    position: fixed;
+    background-color: rgba(230, 243, 255, 0.856);
+    padding: 30px;
+    border-bottom: 20px solid rgba(63, 194, 255, 0.322);
+    width: 100%;
+}
+
+li {
+    display: inline;
+
+}
+
+footer {
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid ;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 0;
+    height: 30px;
+    width: auto;
+   
+
+}
+
+button {
+    background-color: rgba(203, 240, 240, 0.842);
+    height: 40px;
+    width: 60px;
+    border: 0;
+    border-radius: 15%;
+}
+
+section {
+    margin: 30px;
+    padding: 6%;
+    border-radius: 4%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-right{
+    text-align: right;
+}
+
+#login {
+    background-color:rgba(137, 43, 226, 0.226)
+}
+
+#trees {
+    border-radius: 50%;
+}
